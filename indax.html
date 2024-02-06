@@ -22,7 +22,7 @@
             </div>
             <div class="mid input flex flex-row gap-5 bg-slate-100 rounded-3xl py-0">
                  <img src="./images/search.svg" alt="" class="search hover:bg-slate-200 rounded-full h-10 mt-1 cursor-pointer">
-                <input type="text" placeholder="Search mail" class="bg-slate-200 pr-80 rounded-2xl pl-3 active:bg-white after:bg-white outline-none">
+                <input type="text" placeholder="Search mail" class="bg-slate-200 pr-80 rounded-2xl pl-3 active:bg-white focus:bg-white outline-none">
                 <img src="./images/downarrow.svg" alt="" class="downarrow hover:bg-slate-200 rounded-full cursor-pointer h-10 m-1">
             </div>
             <div class="right flex flex-row gap-6 p-1">
@@ -33,14 +33,16 @@
             </div>
         </div>
     </header>
-    <!-- left section -->
-    <section class="left w-72 h-screen px-2 bg-slate-100">
-        <div class="">
+
+    <!-- Main section -->
+    <section class="flex">
+        <!-- left div -->
+        <div class="left w-72 h-screen px-2 bg-slate-100">
             <div class="compose flex flex-row gap-5 py-4 px-5  bg-sky-200 w-36 rounded-xl hover:cursor-pointer hover:shadow-md">
                 <img src="./images/pen.png" alt="" class="w-7 h-7">
                 <p class="">Compose</p>
             </div>
-            <div class="inbox flex flex-row gap-5 m-3">
+            <div class="inbox flex flex-row gap-5">
                 <img src="./images/inbox_black_24dp.svg" alt="" class="">
                 <h3>Inbox</h3>
             </div>
@@ -70,14 +72,29 @@
 
             </div>
         </div>
-    </section>
-    <!-- mid section -->
-    <section class="mid">
 
-    </section>
-    <!-- right section -->
-    <section class="right">
+            <!-- mid div -->
+        <div class="mid bg-white w-40 h-20 rounded-lg flex-grow">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="">
+            </div>
+        </div>
 
+         <!-- right div -->
+        <div class="right w-52 h-40 bg-100">
+            <div class="clender">
+                <img src="./images/calender.png" alt="" class="clender w-5 h-5">
+            </div>
+            <div class="light">
+    
+            </div>
+            <div class="radio-checkbox">
+    
+            </div>
+            <div class="connect">
+                
+            </div>
+        </div>
     </section>
 </body>
 </html>
